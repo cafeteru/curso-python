@@ -18,7 +18,7 @@ while preguntar:
     if numero.isdigit():
         numero = int(numero)
         print(f'El número que has introducido es: {numero}')
-    elif numero == 'salir':
+    elif numero.lower() == 'salir':
         print('¡Hasta luego!')
         preguntar = False
     else:

@@ -1,12 +1,12 @@
 class Restaurant:
-    def __init__(self, nombre: str, categoria: str, precio):
+    def __init__(self, nombre: str, categoria: str, precio: float):
         self.nombre = nombre
         self.categoria = categoria
-        self.precio = precio
+        self.__precio = precio
 
     def mostrar_restaurant(self):
         print(f"El restaurante {self.nombre} es de categoría {self.categoria}.")
-        print(f"El precio promedio es de {self.precio} dólares.")
+        print(f"El precio promedio es de {self.__precio} dólares.")
 
 
 restaurant = Restaurant("La Pizzería", "Comida Italiana", 20)

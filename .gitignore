@@ -1,2 +1,19 @@
 .idea
 01-basico/project/contactos
+
+# Entornos virtuales
+myvenv/
+venv/
+env/
+.venv/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Archivos de distribución
+dist/
+build/
+*.egg-info/
